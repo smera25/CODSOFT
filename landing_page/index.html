@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nurtura</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">🌿 Nurtura</div>
+      <ul class="nav-list">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#services">Our Services</a></li>
+      </ul>
+      <a href="#join" class="join-btn">Join Us</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Nurtura</h1>
+      <p class="hero-subtitle">Guiding Growth with Love and Logic.</p>
+      <a href="#join" class="cta-btn">Join the Movement</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are passionate plant lovers dedicated to helping you grow a greener, healthier space.
+    Combining smart technology with eco-friendly practices, we provide personalized care and expert guidance.
+    Join us to nurture your plants and create a thriving garden that blossoms with grace.</p>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section id="testimonials" class="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial-cards">
+    <div class="testimonial-card">
+      <p>"Absolutely love the energy and design sense. This is what growth looks like!"</p>
+      <h4>– Ayesha, Designer</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"A beautiful experience from start to finish. The website is clean and elegant."</p>
+      <h4>– Rohan, Developer</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"They really care about the user and it shows in every detail!"</p>
+      <h4>– Sneha, UX Specialist</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features">
+  <h2>Why You'll Love Us</h2>
+  <div class="feature-cards">
+    <div class="feature-card">
+      🌿 <strong>Eco-Friendly Practices</strong>
+      <p>We use sustainable methods and natural products to care for plants and the planet.</p>
+    </div>
+    <div class="feature-card">
+      💡 <strong>Smart Plant Guidance</strong>
+      <p>Our intelligent systems suggest the best care based on your environment and plant type.</p>
+    </div>
+    <div class="feature-card">
+      📦 <strong>Quick & Reliable Delivery</strong>
+      <p>Get your plants and supplies delivered swiftly, securely, and with a smile.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Our Services -->
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>🌱 Plant Care</h3>
+      <p>Get personalized advice and reminders for watering, sunlight, and nutrition.</p>
+    </div>
+    <div class="service-card">
+      <h3>🧑‍🌾 Garden Planning</h3>
+      <p>Visualize, plan, and design your perfect garden space with expert suggestions.</p>
+    </div>
+    <div class="service-card">
+      <h3>📬 Subscription Boxes</h3>
+      <p>Receive monthly curated plant and care boxes tailored to your lifestyle.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Join Us -->
+  <section id="join" class="join">
+    <h2>Join Us</h2>
+    <p>Subscribe to our newsletter and never miss an update!</p>
+    <input type="email" placeholder="Enter your email" />
+    <button>Subscribe</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Grow with Grace. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    const navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  </script>
+
+</body>
+</html>
